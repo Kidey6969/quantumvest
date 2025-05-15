@@ -12,7 +12,7 @@ import Mine from "./pages/Mine";
 import AuthTabs from "./pages/AuthTabs";
 import Security from "./pages/Security";
 
-// Admin components
+/// Admin components
 import AdminPanel from "./pages/admin/AdminPanel";
 import DashboardAnalytics from "./pages/admin/DashboardAnalytics";
 import ManageUsers from "./pages/admin/ManageUsers";
