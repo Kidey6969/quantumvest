@@ -8,9 +8,9 @@ import Portfolio from "./pages/Portfolio";
 import Wallet from "./pages/Wallet";
 import Settings from "./pages/Settings";
 import Transactions from "./pages/transactions";
-import Security from "./pages/security";
 import Mine from "./pages/Mine";
 import AuthTabs from "./pages/AuthTabs";
+import Security from "./pages/security";
 
 // Admin components
 import AdminPanel from "./pages/admin/AdminPanel";
