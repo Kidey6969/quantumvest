@@ -10,7 +10,7 @@ import Settings from "./pages/Settings";
 import Transactions from "./pages/transactions";
 import Mine from "./pages/Mine";
 import AuthTabs from "./pages/AuthTabs";
-
+import Security from "./pages/Security";
 
 /// Admin components
 import AdminPanel from "./pages/admin/AdminPanel";
