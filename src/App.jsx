@@ -7,7 +7,7 @@ import Withdraw from "./pages/Withdraw";
 import Portfolio from "./pages/Portfolio";
 import Wallet from "./pages/Wallet";
 import Settings from "./pages/Settings";
-import Transactions from "./pages/Transactions";
+import Transactions from "./pages/transactions";
 import Security from "./pages/Security";
 import Mine from "./pages/Mine";
 import AuthTabs from "./pages/AuthTabs";
@@ -41,7 +41,7 @@ function App() {
             <Route path="/settings" element={<Settings />} />
             <Route path="/security" element={<Security />} />
             <Route path="/mine" element={<Mine />} />
-            <Route path="/transactions" element={<Transactions />} />
+            <Route path="/transactions" element={<transactions />} />
             <Route path="/auth" element={<AuthTabs />} />
             <Route path="/login" element={<AuthTabs />} />
 
