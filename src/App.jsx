@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/sidebar";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Withdraw from "./pages/Withdraw";
@@ -8,7 +8,7 @@ import Portfolio from "./pages/Portfolio";
 import Wallet from "./pages/Wallet";
 import Settings from "./pages/Settings";
 import Transactions from "./pages/transactions";
-import Security from "./pages/Security";
+import Security from "./pages/security";
 import Mine from "./pages/Mine";
 import AuthTabs from "./pages/AuthTabs";
 
@@ -41,7 +41,7 @@ function App() {
             <Route path="/settings" element={<Settings />} />
             <Route path="/security" element={<Security />} />
             <Route path="/mine" element={<Mine />} />
-            <Route path="/transactions" element={<transactions />} />
+            <Route path="/transactions" element={<Transactions />} />
             <Route path="/auth" element={<AuthTabs />} />
             <Route path="/login" element={<AuthTabs />} />
 
